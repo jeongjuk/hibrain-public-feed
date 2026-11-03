@@ -1,0 +1,36 @@
+name: Public Hibrain feed
+on:
+  push:
+    paths: ['collect.py', 'monitor.py', 'config.json', 'requirements.txt', '.github/workflows/collect.yml']
+  schedule:
+    - cron: '1 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: public-feed
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: macos-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: python collect.py
+      - name: Publish metadata and health
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add state.json
+          if [ -f feed.json ]; then git add feed.json; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update public notice feed [skip ci]'
+            git push origin HEAD:main
+          fi

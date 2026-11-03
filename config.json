@@ -1,0 +1,61 @@
+{
+  "groups": {
+    "모델": [
+      "모델학",
+      "모델전공",
+      "모델과",
+      "모델연기",
+      "모델연출",
+      "패션모델",
+      "모델워킹",
+      "런웨이",
+      "워킹지도"
+    ],
+    "패션": [
+      "패션",
+      "의상",
+      "의류",
+      "텍스타일",
+      "복식",
+      "fashion",
+      "코스튬"
+    ],
+    "연극영화": [
+      "연극",
+      "영화",
+      "연기예술",
+      "연기전공",
+      "연기학",
+      "연기과",
+      "연기실습",
+      "연기지도",
+      "배우훈련",
+      "배우교육",
+      "뮤지컬",
+      "공연예술",
+      "공연창작",
+      "방송연예",
+      "연출극작",
+      "무대미술",
+      "무대의상",
+      "무대제작",
+      "영상연출",
+      "영상제작"
+    ]
+  },
+  "sources": [
+    {
+      "id": "hibrain",
+      "name": "하이브레인넷 · 전국 강사채용",
+      "kind": "links",
+      "url": "https://hibrain.net/recruitment/categories/JOB/categories/TPROF/recruits?sortType=SORTDTM&listType=ING&limit=100",
+      "selector": ".td_title a[href*='/recruits/']",
+      "title_selector": ".title",
+      "canonical_pattern": "/recruits/([0-9]+)",
+      "canonical_template": "https://hibrain.net/recruitment/recruits/{0}",
+      "body_selector": ".recruitViewContent",
+      "embedded_pdf": true,
+      "review_general": true
+    }
+  ]
+}
