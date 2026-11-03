@@ -55,7 +55,7 @@
       "canonical_template": "https://hibrain.net/recruitment/recruits/{0}",
       "body_selector": ".recruitViewContent",
       "embedded_pdf": true,
-      "review_general": true
+      "review_general": false
     }
   ]
 }

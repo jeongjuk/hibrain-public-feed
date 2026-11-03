@@ -1,7 +1,7 @@
 # Public arts lecturer notice feed
 
 Hourly metadata monitor for publicly accessible Hibrain lecturer recruitment notices.
-Focus: modelling, fashion, theatre and film teaching, plus general lecturer notices requiring manual subject review.
+Focus: modelling, fashion, theatre and film teaching only; general notices without matching subject keywords are excluded.
 
 The standard GitHub-hosted macOS runner checks at minute 01 every hour (scheduling may be delayed).
 `feed.json` contains public titles, original links, keyword matches and collection health only.

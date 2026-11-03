@@ -2,40 +2,7 @@
   "version": 1,
   "checked_at": "2026-11-03T06:58:55.708278+00:00",
   "published_at": 1793689139.9104772,
-  "pending": {
-    "39b8a3e97e4f8df0591db373e965a08ac222": {
-      "id": "39b8a3e97e4f8df0591db373",
-      "title": "경일대학교 2027학년도 1학기 교수 초빙",
-      "url": "https://hibrain.net/recruitment/recruits/3604617",
-      "source": "하이브레인넷 · 전국 강사채용",
-      "category": "전공 확인 필요",
-      "matches": {}
-    },
-    "ea4a800758457f448d4917d687762599c7ab": {
-      "id": "ea4a800758457f448d4917d6",
-      "title": "한국환경보전원 환경연수처 녹색화학안전팀 강사 모집",
-      "url": "https://hibrain.net/recruitment/recruits/3604575",
-      "source": "하이브레인넷 · 전국 강사채용",
-      "category": "전공 확인 필요",
-      "matches": {}
-    },
-    "94e8b29a963cd846856b3af667f10108016d": {
-      "id": "94e8b29a963cd846856b3af6",
-      "title": "건양대학교 초빙교수 모집",
-      "url": "https://hibrain.net/recruitment/recruits/3604491",
-      "source": "하이브레인넷 · 전국 강사채용",
-      "category": "전공 확인 필요",
-      "matches": {}
-    },
-    "36f8179f7db82c215524d14d853d8975f370": {
-      "id": "36f8179f7db82c215524d14d",
-      "title": "서울대학교 음악대학 강사 모집 (2차)",
-      "url": "https://hibrain.net/recruitment/recruits/3604499",
-      "source": "하이브레인넷 · 전국 강사채용",
-      "category": "전공 확인 필요",
-      "matches": {}
-    }
-  },
+  "pending": {},
   "sources": [
     {
       "name": "하이브레인넷 · 전국 강사채용",
