@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "checked_at": "2026-11-17T16:42:34.924885+00:00",
-  "published_at": 1794933798.886587,
+  "checked_at": "2026-11-17T23:45:07.581540+00:00",
+  "published_at": 1794959107.766803,
   "pending": {
     "e774a05146fd7af1c018215d932d8a5c0f2d": {
       "id": "e774a05146fd7af1c018215d",
@@ -64,29 +64,8 @@
       }
     }
   },
-  "sources": [
-    {
-      "name": "하이브레인넷 · 전국 강사채용",
-      "count": 75,
-      "baseline": false
-    }
-  ],
+  "sources": [],
   "errors": [
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3605954: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606078: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606070: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606079: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3605899: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3605988: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3605277: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3605328: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3605378: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3605281: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3605325: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3604902: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3604867: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3604493: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3604312: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3604563: ValueError"
+    "하이브레인넷 · 전국 강사채용: HTTPError: 403 Client Error: Forbidden for url: https://hibrain.net/recruitment/categories/JOB/categories/TPROF/recruits?sortType=SORTDTM&listType=ING&limit=100"
   ]
 }
