@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "checked_at": "2026-11-17T06:48:39.975173+00:00",
-  "published_at": 1794898120.0778801,
+  "checked_at": "2026-11-17T16:42:34.924885+00:00",
+  "published_at": 1794933798.886587,
   "pending": {
     "e774a05146fd7af1c018215d932d8a5c0f2d": {
       "id": "e774a05146fd7af1c018215d",
@@ -26,10 +26,67 @@
           "영상제작"
         ]
       }
+    },
+    "901b348d1bf138b09483ac8342fa6d37b3bd": {
+      "id": "901b348d1bf138b09483ac83",
+      "title": "서울대학교 국제대학원 국제학과 강사 모집 (2차)",
+      "url": "https://hibrain.net/recruitment/recruits/3606251",
+      "source": "하이브레인넷 · 전국 강사채용",
+      "category": "관련 키워드 발견",
+      "matches": {
+        "패션": [
+          "이미지"
+        ]
+      }
+    },
+    "69ae065b34307f9a1900141ae2d74a9efd3b": {
+      "id": "69ae065b34307f9a1900141a",
+      "title": "서울대학교 미술대학 동양화과 강사 모집 (1차 추가)",
+      "url": "https://hibrain.net/recruitment/recruits/3606254",
+      "source": "하이브레인넷 · 전국 강사채용",
+      "category": "관련 키워드 발견",
+      "matches": {
+        "패션": [
+          "이미지"
+        ]
+      }
+    },
+    "5683c6ef1cbf050cd7d579cd65e1c719db7d": {
+      "id": "5683c6ef1cbf050cd7d579cd",
+      "title": "유한대학교 2027학년도 1학기 전임교원 초빙",
+      "url": "https://hibrain.net/recruitment/recruits/3606052",
+      "source": "하이브레인넷 · 전국 강사채용",
+      "category": "관련 키워드 발견",
+      "matches": {
+        "패션": [
+          "의상"
+        ]
+      }
     }
   },
-  "sources": [],
+  "sources": [
+    {
+      "name": "하이브레인넷 · 전국 강사채용",
+      "count": 75,
+      "baseline": false
+    }
+  ],
   "errors": [
-    "하이브레인넷 · 전국 강사채용: HTTPError: 403 Client Error: Forbidden for url: https://hibrain.net/recruitment/categories/JOB/categories/TPROF/recruits?sortType=SORTDTM&listType=ING&limit=100"
+    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3605954: ValueError",
+    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606078: ValueError",
+    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606070: ValueError",
+    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606079: ValueError",
+    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3605899: ValueError",
+    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3605988: ValueError",
+    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3605277: ValueError",
+    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3605328: ValueError",
+    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3605378: ValueError",
+    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3605281: ValueError",
+    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3605325: ValueError",
+    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3604902: ValueError",
+    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3604867: ValueError",
+    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3604493: ValueError",
+    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3604312: ValueError",
+    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3604563: ValueError"
   ]
 }
