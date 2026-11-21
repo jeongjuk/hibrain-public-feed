@@ -38,6 +38,8 @@ def compact(value):
     return re.sub(r"\s+", "", value).lower()
 
 def candidate(title):
+    if re.search(r"(?<!비)전임교원|(?<!비)전임교수", title) and not re.search(r"강사|비전임|겸임|객원", title):
+        return False
     return bool((ROLE.search(title) or re.search(r"(?:교원|교수)\s*(?:\([^)]*\))?\s*(?:신규|공개)?\s*(?:채용|초빙|모집)", title))
                 and HIRING.search(title) and not EXCLUDE.search(title))
 
@@ -46,8 +48,8 @@ def classify(title, body, groups, review_general=True):
         return None
     if not ROLE.search(title) and not ROLE.search(body):
         return None  # Mixed faculty advertisements must actually include lecturer roles.
-    text = compact(title + " " + body)
-    hits = {group: [word for word in words if compact(word) in text]
+    text = (title + " " + body).lower()
+    hits = {group: [word for word in words if (compact(word) in compact(text) if len(compact(word)) > 2 else word.lower() in text)]
             for group, words in groups.items()}
     hits = {group: words for group, words in hits.items() if words}
     if hits:
@@ -224,7 +226,7 @@ def detail(fetcher, item, source):
     text = node.get_text(" ", strip=True) + pdf_text
     if len(text) < 20:
         if source.get("image_notice") and has_media:
-            return "이미지 또는 첨부파일 공고: 원문에서 모집 전공 확인 필요"
+            raise ValueError("이미지 공고: 모집 분야 텍스트를 읽지 못함")
         raise ValueError("본문이 비어 있거나 지나치게 짧음")
     return text
 
