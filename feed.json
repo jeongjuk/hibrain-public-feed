@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "checked_at": "2026-11-21T03:46:02.704667+00:00",
-  "published_at": 1795232812.350036,
+  "checked_at": "2026-11-21T11:42:42.558914+00:00",
+  "published_at": 1795261362.794074,
   "pending": {
     "e774a05146fd7af1c018215d932d8a5c0f2d": {
       "id": "e774a05146fd7af1c018215d",
@@ -89,38 +89,8 @@
       }
     }
   },
-  "sources": [
-    {
-      "name": "하이브레인넷 · 전국 강사채용",
-      "count": 73,
-      "baseline": false
-    }
-  ],
+  "sources": [],
   "errors": [
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606718: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606728: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606717: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606716: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606586: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606585: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606540: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606509: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606547: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606554: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606508: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606340: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606381: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606424: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606370: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606366: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606347: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606338: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606078: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3606070: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3605899: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3605378: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3605325: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3604493: ValueError",
-    "하이브레인넷 · 전국 강사채용: https://hibrain.net/recruitment/recruits/3604312: ValueError"
+    "하이브레인넷 · 전국 강사채용: HTTPError: 403 Client Error: Forbidden for url: https://hibrain.net/recruitment/categories/JOB/categories/TPROF/recruits?sortType=SORTDTM&listType=ING&limit=100"
   ]
 }
