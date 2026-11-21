@@ -46,8 +46,13 @@ def candidate(title):
 def classify(title, body, groups, review_general=True):
     if not candidate(title):
         return None
-    if not ROLE.search(title) and not ROLE.search(body):
-        return None  # Mixed faculty advertisements must actually include lecturer roles.
+    if not ROLE.search(title):
+        # Require an actual lecturer recruitment phrase, not a past-career mention.
+        role_hiring = re.compile(
+            r"(?:강사|비전임교원|겸임교수|객원교수|초빙교수)[^。.!?\n]{0,35}(?:모집|채용|초빙|초빙분야|모집인원)")
+        relevant_body = re.sub(r"[^\n。.!?]*(?:경력서류|경력증명|주당수업시수)[^\n。.!?]*", "", body)
+        if not role_hiring.search(relevant_body):
+            return None
     text = (title + " " + body).lower()
     hits = {group: [word for word in words if (compact(word) in compact(text) if len(compact(word)) > 2 else word.lower() in text)]
             for group, words in groups.items()}
