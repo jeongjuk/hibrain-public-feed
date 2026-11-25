@@ -1,0 +1,25 @@
+name: Jinhak cloud browser probe
+on:
+  push:
+    paths: ['probe_jinhak.py', '.github/workflows/jinhak-probe.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: macos-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install playwright
+      - run: python -m playwright install chromium
+      - run: python probe_jinhak.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: jinhak-cloud-probe
+          path: jinhak-probe.json
+          retention-days: 3
